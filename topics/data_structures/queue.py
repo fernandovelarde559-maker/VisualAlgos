@@ -26,7 +26,13 @@ class Queue:
         else:
             this.front = (this.front + 1) % len(this.queue)
 
-    def queue_state(this):
+    def __str__(this):
         for i in len(this.queue):
             print(str(this.queue[i]) + " ")
+
+if __name__ == "__main__":
+    queue = Queue()
+
+
+
     
